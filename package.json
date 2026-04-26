@@ -1,0 +1,15 @@
+{
+  "name": "automacao-web-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Automação Web com Cypress e Cucumber no site Automation Exercise",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cypress": "^14.0.0",
+    "esbuild": "^0.25.0"
+  }
+}
